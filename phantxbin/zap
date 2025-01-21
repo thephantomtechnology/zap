@@ -6,7 +6,7 @@ echo "*****************************"
 
 if xhost >& /dev/null ; then
 
-	bash /opt/ANDRAX/zap/zap.sh "$@"
+	bash /opt/PHANTX/zap/zap.sh "$@"
 
 else
 	exit 333
