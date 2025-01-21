@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "********** WARNING **********"
+echo "*   Graphical Application   *"
+echo "*****************************"
+
+if xhost >& /dev/null ; then
+
+	bash /opt/ANDRAX/zap/zap.sh "$@"
+
+else
+	exit 333
+
+fi
